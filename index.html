@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fafafa;
+        }
+        
+        .landing {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .landing-content {
+            text-align: center;
+        }
+        
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 30px;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+        }
+        
+        .tagline {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 50px;
+            font-weight: 300;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .links a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 12px 30px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            transition: all 0.2s;
+            min-width: 200px;
+            background: #fff;
+        }
+        
+        .links a:hover {
+            border-color: #333;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+        
+        article {
+            background: #fff;
+            padding: 50px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        article h2 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        
+        .date {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 25px;
+        }
+        
+        article p {
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 40px;
+            font-size: 0.95rem;
+        }
+        
+        .back-link:hover {
+            color: #333;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            article {
+                padding: 30px 25px;
+            }
+            
+            .links a {
+                min-width: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Landing Page -->
+    <div class="landing">
+        <div class="landing-content">
+            <img src="profile.jpg" alt="Your Name" class="profile-photo">
+            <h1>Your Name</h1>
+            <p class="tagline">Engineering Student | Builder</p>
+            <div class="links">
+                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="resume.pdf" target="_blank">Resume</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container">
+        <a href="#" class="back-link">← Back to top</a>
+        
+        <article>
+            <h2>Thesis Project</h2>
+            <p class="date">2024</p>
+            <p>Write about your thesis project in a more narrative style. What inspired you to work on this? What was the journey like? What did you discover along the way?</p>
+            <p>Include the technical details naturally within the story. What challenges did you face? How did you overcome them? What did you learn?</p>
+            <p>End with the impact or what this project means to you moving forward.</p>
+        </article>
+        
+        <article>
+            <h2>Formula Student Team</h2>
+            <p class="date">2023-2024</p>
+            <p>Tell the story of your time on the formula student team. What drew you to join? What was your role?</p>
+            <p>Share specific moments or challenges that defined your experience. Maybe a particular problem you solved, a competition you participated in, or a breakthrough moment.</p>
+            <p>Reflect on what this experience taught you about teamwork, engineering, or yourself.</p>
+        </article>
+        
+        <article>
+            <h2>Boring Team</h2>
+            <p class="date">2022-2023</p>
+            <p>Your experience on the boring team. What were you building? What problems were you solving?</p>
+            <p>Describe the work in an engaging way - what made it interesting or challenging? What skills did you develop?</p>
+            <p>What's the most memorable aspect of this project?</p>
+        </article>
+        
+        <article>
+            <h2>Other Projects</h2>
+            <p class="date">Various</p>
+            <p>Share any other projects, side work, or experiments you've been part of. These can be more brief, but still tell a story.</p>
+            <p>What drives your interest in engineering and building things?</p>
+        </article>
+    </div>
+</body>
+</html>

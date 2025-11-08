@@ -100,6 +100,16 @@
             margin-bottom: 10px;
         }
 
+        /* Make project titles look like normal text but still be clickable */
+        article h2 a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        article h2 a:hover {
+            text-decoration: underline;
+        }
+
         .date {
             color: #999;
             font-size: 0.9rem;
@@ -122,6 +132,16 @@
 
         .back-link:hover {
             color: #333;
+        }
+
+        .read-more {
+            text-decoration: none;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .read-more:hover {
+            color: #000;
         }
 
         @media (max-width: 600px) {
@@ -165,19 +185,13 @@
             <h2><a href="project_one.html">Thesis Project – NaBC TBM Power & Communication Systems</a></h2>
             <p class="date">2024</p>
             <p>
-                Designing a power system and communication platform for a Not-a-Boring-Competition compliant
-                micro tunnel boring machine, combining motor modelling, HV architecture, and embedded control.
+                Designing a power system and communication platform for a Not-a-Boring Competition–compliant
+                micro-tunnel boring machine, combining motor modelling, high-voltage architecture, and embedded control.
             </p>
             <p><a href="project_one.html" class="read-more">Read more →</a></p>
         </article>
 
     </div>
-
-
-
-
-
-
 </body>
 
 </html>

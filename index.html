@@ -100,7 +100,6 @@
             margin-bottom: 10px;
         }
 
-        /* Make project titles look like normal text but still be clickable */
         article h2 a {
             text-decoration: none;
             color: inherit;
@@ -120,6 +119,14 @@
             color: #444;
             line-height: 1.8;
             margin-bottom: 15px;
+        }
+
+        .project-image {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         }
 
         .back-link {
@@ -170,8 +177,7 @@
             <div class="links">
                 <a href="mailto:adavies0033@gmail.com">Email</a>
                 <a href="https://www.linkedin.com/in/alexdavies0033" target="_blank">LinkedIn</a>
-                <a href="https://drive.google.com/file/d/1iC5R-FDW_C3wGXMgee8DHIFfSfBPl9tI/view?usp=sharing"
-                    target="_blank">Resume</a>
+                <a href="https://drive.google.com/file/d/1iC5R-FDW_C3wGXMgee8DHIFfSfBPl9tI/view?usp=sharing" target="_blank">Resume</a>
                 <a href="#projects">Projects</a>
             </div>
         </div>
@@ -184,6 +190,10 @@
         <article>
             <h2><a href="project_one.html">Thesis Project – NaBC TBM Power & Communication Systems</a></h2>
             <p class="date">2024</p>
+
+            <!-- Add project image here -->
+            <img src="MMS_Car.jpg" alt="Monash Motor Sport M22" class="project-image">
+
             <p>
                 Designing a power system and communication platform for a Not-a-Boring Competition–compliant
                 micro-tunnel boring machine, combining motor modelling, high-voltage architecture, and embedded control.

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis Project – Alex Davies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fafafa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px 80px;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 25px;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+        }
+
+        .back-link:hover {
+            color: #333;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to home</a>
+        
+        <h1>Thesis Project – NaBC Micro Tunnel Boring Machine Power & Communication Systems</h1>
+        <p class="date">2024</p>
+
+        <h2>Overview</h2>
+        <p>
+            This thesis focuses on developing a power delivery and communication platform for a 
+            Not-a-Boring Competition compliant micro tunnel boring machine (TBM). The system 
+            integrates a high-voltage architecture, distributed low-voltage ECUs, and robust 
+            communication links between surface control and the machine.
+        </p>
+
+        <h2>Technical Scope</h2>
+        <ul>
+            <li>Design and modelling of a 10 kW induction motor drive system for cutterhead actuation.</li>
+            <li>High-voltage DC bus architecture and LV power distribution to embedded controllers.</li>
+            <li>Simulation of power, torque, and thermal performance using MATLAB/Simulink and ANSYS.</li>
+            <li>Communication platform for telemetry, control signals, and subsystem coordination.</li>
+        </ul>
+
+        <h2>Key Challenges</h2>
+        <p>
+            The project had to balance NaBC constraints, physical envelope limitations, thermal 
+            performance, and safety requirements, while remaining modular enough to support future 
+            upgrades in power level and autonomy.
+        </p>
+
+        <h2>Outcomes</h2>
+        <p>
+            The final design demonstrates a viable power and communication platform for a competition-scale TBM, 
+            with validated motor operation, controllable propulsion concepts, and a hardware architecture that 
+            can be extended for higher power and increased autonomy in future work.
+        </p>
+
+        <!-- Optional: link to PDF or repo -->
+        <!-- <p><a href="your-thesis-link.pdf" target="_blank">View thesis report →</a></p> -->
+    </div>
+</body>
+</html>

@@ -62,6 +62,25 @@
             margin-left: 20px;
             margin-bottom: 16px;
         }
+
+        /* Image styling */
+        .image-block {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .image-block img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .caption {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 8px;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +97,10 @@
             integrates a high-voltage architecture, distributed low-voltage ECUs, and robust 
             communication links between surface control and the machine.
         </p>
+        <div class="image-block">
+            <img src="MMS_Car.jpg" alt="Micro TBM Overview">
+            <div class="caption">Figure 1: CAD model of the MBEST Micro-TBM system.</div>
+        </div>
 
         <h2>Technical Scope</h2>
         <ul>
@@ -86,6 +109,10 @@
             <li>Simulation of power, torque, and thermal performance using MATLAB/Simulink and ANSYS.</li>
             <li>Communication platform for telemetry, control signals, and subsystem coordination.</li>
         </ul>
+        <div class="image-block">
+            <img src="MMS_Car.jpg" alt="System Diagram">
+            <div class="caption">Figure 2: System-level architecture showing power and communication subsystems.</div>
+        </div>
 
         <h2>Key Challenges</h2>
         <p>
@@ -93,6 +120,10 @@
             performance, and safety requirements, while remaining modular enough to support future 
             upgrades in power level and autonomy.
         </p>
+        <div class="image-block">
+            <img src="MMS_Car.jpg" alt="Testing Setup">
+            <div class="caption">Figure 3: Prototype testing of motor drive and telemetry link.</div>
+        </div>
 
         <h2>Outcomes</h2>
         <p>
@@ -100,6 +131,7 @@
             with validated motor operation, controllable propulsion concepts, and a hardware architecture that 
             can be extended for higher power and increased autonomy in future work.
         </p>
+
 
         <!-- Optional: link to PDF or repo -->
         <!-- <p><a href="your-thesis-link.pdf" target="_blank">View thesis report →</a></p> -->
